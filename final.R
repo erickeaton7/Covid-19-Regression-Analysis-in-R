@@ -1,11 +1,6 @@
 library(readr)
 library(rgl)
 
-# I've included these data files in our shared onedrive folder.
-# You will likely have to change the cases_loc and pop_loc variables to
-# their location in the onedrive folder if you want to use
-# them though.
-
 # grab and read cases csv
 cases_loc = 'C:\\Users\\erick\\OneDrive\\Documents\\atom_projects\\python\\covid19_project\\new_cases.csv'
 cases_data = read.csv(cases_loc)
